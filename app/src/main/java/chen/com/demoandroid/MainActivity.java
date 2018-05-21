@@ -8,10 +8,10 @@ import chen.com.demoandroid.view.autoscrollviewpager.ViewPagerActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        startActivity(new Intent(this, ViewPagerActivity.class));
-    }
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+    startActivity(new Intent(this, EndlessGridLayoutActivity.class));
+  }
 }
